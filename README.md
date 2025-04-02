@@ -20,7 +20,7 @@ awk '{print $2}' file.txt
 ```
 
 2. Printing only rows that meet a condition
- - Prints rows where the 3rd column is greater than 100
+ - Prints rows where the 3rd column is greater than 290000
 ```sh
 awk '$3 > 290000 {print $0}' file.txt
 
